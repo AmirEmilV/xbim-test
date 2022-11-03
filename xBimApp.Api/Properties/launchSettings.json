@@ -1,0 +1,38 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:29686",
+      "sslPort": 44343
+    }
+  },
+  "profiles": {
+    "XBimApp.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7133;http://localhost:5133",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AWS_S3_ACCESS_KEY_ID": "AKIASTSFBEODVXQRSZS2",
+        "AWS_S3_SECRET_ACCESS_KEY": "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",
+        "AWS_S3_BUCKET_NAME": "xbim-ifc-files"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AWS_S3_ACCESS_KEY_ID": "AKIASTSFBEODVXQRSZS2",
+        "AWS_S3_SECRET_ACCESS_KEY": "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",
+        "AWS_S3_BUCKET_NAME": "xbim-ifc-files"
+      }
+    }
+  }
+}
+
